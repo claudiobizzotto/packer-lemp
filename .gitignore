@@ -1,0 +1,4 @@
+builds/
+packer_cache/
+.vagrant
+output-ubuntu-16.04-amd64-virtualbox-iso/

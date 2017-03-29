@@ -1,0 +1,18 @@
+---
+php_webserver_daemon: nginx
+php_enable_php_fpm: true
+php_packages:
+  - php
+  - php-apcu
+  - php-cli
+  - php-common
+  - php-curl
+  - php-gd
+  - php-mbstring
+  - php-xml
+  - php-xmlrpc
+  - php-fpm
+
+mysql_root_password: root
+nginx_worker_connections: 1024
+
